@@ -1,0 +1,14 @@
+h2
+{
+	background-color: lightgray;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 5px 5px 6px gray;
+}
+
+section#ep, #etude, #cp, #stage, #loisir
+{
+	font-family: georgia;
+	padding: 2px;
+}
+
