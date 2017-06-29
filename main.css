@@ -1,3 +1,15 @@
+body
+{
+	background: url(img/fond-site.jpg) no-repeat;
+}	
+
+h1
+{
+	font-family: "Diablo";
+	text-align: center;
+}
+
+
 h2
 {
 	background-color: lightgray;
@@ -6,63 +18,79 @@ h2
 	box-shadow: 5px 5px 6px gray;
 }
 
-section#ep, #etude, #cp, #stage, #loisir
-{
-	font-family: georgia;
-	padding: 2px;
-}
-
 h3
 {
 	text-align: justify;
 	display: inline;
 }
 
+section#ep, #etude, #cp, #stage, #loisir
+{
+	font-family: georgia;
+	padding: 2px;
+}
+
+p
+{
+	font-family: "Diablo";
+}
+
+img
+{
+	display: block;
+}
+
+@font-face
+{
+	font-family: "Diablo";
+	src: url('font/diablo_h.ttf');
+}
+
 #navigateur
 {
 	text-align: center;
 	border-radius: 8px;
-	border: 1px ridge;
-	background-color: lightgray;
+	margin-top: 15px;
 }
 
-#bouton
+a#bouton
 {
 	display: inline-block;
 	width:150px;
 	line-height:50px;
-	background-color: black;
+	/*background-color: black;*/
 	text-align: center;
 	color: white;
 	text-decoration: none;
 	margin: 2px;
+	top: 5px;
 	border-radius: 10px;
 	box-shadow: 5px 5px 6px gray;
+	background: url(img/boutonnoir.png) no-repeat;
 }
 
 a:hover
 {
-	color: gold;
 	background: url(img/boutonnoir2.png) no-repeat;
 }
 
-#corps
+#entete
 {
 	position: relative;
 	top: 10px;
-	border: 1px solid;
 }
 
 #titre
 {
 	position: relative;
 	top: 10px;
-	border: 1px solid;
 }
 
 #main_text
 {
 	position: relative;
+	left: 25%;
 	top: 10px;
-	border: 1px solid;
+	width: 50%;
+	border: none;
 }
