@@ -4,7 +4,7 @@
 
 	<head>
 
-		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
 		<meta charset="UTF-8">
 
 		<title>Page principale</title>
@@ -28,11 +28,9 @@
 		</div>
 
 		<!-- Navigateur -->
-			<nav id="navigateur">
-				<a href="main_page.html" id="bouton">ACCUEIL</a>
-				<a href="CV.html" id="bouton">CV</a>
-				<a href="#" id="bouton">AUTRES</a>
-			</nav>
+			<?php
+				include("navigation.php");
+			?>
 
 			<article id="main_text">
 				<h1>Bienvenue sur mon site de présentation</h1>
@@ -59,9 +57,11 @@
 	<br>
 
 	<footer class="container">
-		<section id="createur">
-			Site créé par Lauer Mathieu
-		</section>
+		
+		<?php
+			include("pied_de_page.php");
+
+		?>
 	</footer>
 
 </html>
