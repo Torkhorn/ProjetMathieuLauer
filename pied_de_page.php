@@ -1,3 +1,3 @@
-<section id="createur">
+<footer>
 			Site créé par Lauer Mathieu
-</section>
+</footer>

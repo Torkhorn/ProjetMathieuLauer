@@ -1,12 +1,55 @@
+html
+{
+	height:100%;
+}
+
 body
 {
+	height: 100%;
+	position: relative;
 	background: url(img/fond-site.jpg) no-repeat;
 }
+
+h1
+{
+	font-family: "Diablo";
+	color: #8B0000;
+}
+
+li
+{
+	list-style-type: none;
+}
+
+/*différentes polices */
+@font-face
+{
+	font-family: "Diablo";
+	src: url('font/diablo_h.ttf');
+}
+
+@font-face
+{
+	font-family: "Merienda";
+	src: url('font/Merienda/Merienda-Regular.ttf');
+}
+
+/* Footer */
+footer
+{
+	bottom: 0;
+	background-color: #808259;
+	height: 100px;
+	position: relative;
+	display: block;
+}
+
+/* NAvigateur */
 
 
 #nav
 {
-	margin: 0;
+	margin: auto;
 	padding: 0;
 	background: #808259 url(img/font2.jpg) 0 0 repeat-x;
 	float: left;
@@ -47,16 +90,16 @@ body
 	background: #727454;
 }
 
-#home #nav-home a, #about #nav-about a, #archive #nav-archive a, #lab #nav-lab a, 
-#reviews #nav-reviews a, #contact #nav-contact a 
+#home #nav_accueil a, #about #nav_moi a, #cursus #nav_cursus a, #lab #nav_exp_pro a, 
+#reviews #nav_competences a, #contact #nav_stages a 
 {
   background:#e35a00;
   color:#fff;
   text-shadow:none;
 }
  
-#home #nav-home a:hover, #about #nav-about a:hover, #archive #nav-archive a:hover, 
-#lab #nav-lab a:hover, #reviews #nav-reviews a:hover, #contact #nav-contact a:hover 
+#home #nav_accueil a:hover, #about #nav_moi a:hover, #archive #nav_cursus a:hover, 
+#lab #nav_exp_pro a:hover, #reviews #nav_competences a:hover, #contact #nav_stages a:hover 
 {
   background:#e35a00;
 }
@@ -65,4 +108,41 @@ body
 {
    background:#e35a00;
    color:#fff;
+}
+
+#global
+{
+	min-height: 100%;
+	position: relative;
+}
+
+#mp_index
+{
+
+}
+/* Corps */
+#cv li
+{
+	list-style-type: none;
+}
+
+#cv ul
+{
+	padding-left: 0px;
+}
+
+.moi
+{
+	text-align: justify; 
+}
+
+.main_text
+{
+	font-family: "Diablo";
+	position: relative;
+	text-align: center;
+	margin-top: 170px;
+	left: 25%;
+	width: 50%
+
 }

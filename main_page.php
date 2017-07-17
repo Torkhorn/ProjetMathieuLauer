@@ -13,55 +13,54 @@
 
 	<body>
 
-	<div id="global">
+		<div id="global">
 
-		<!-- entête -->
-		<div id="entete">
+			<!-- entête -->
+			<div id="entete">
 
-			<div id="titre" align="center">
+				<div id="titre" align="center">
 
-				<img src=img/nyancat.webp>
-				<h1 >Soyez la bienvenue !</h1>
+					<img src=img/nyancat.webp>
+					<h1>Soyez la bienvenue !</h1>
+
+				</div>
 
 			</div>
 
-		</div>
-
-		<!-- Navigateur -->
+			<!-- Navigateur -->
 			<?php
 				include("navigation.php");
 			?>
 
-			<article id="main_text">
-				<h1>Bienvenue sur mon site de présentation</h1>
+			<!-- Corps de la page -->
+
+			<div class="main_text">
 
 				<br>
-				<p>
+				
+				<h1><u>Bienvenue sur mon site de présentation</u></h1>
+
+				<br>
+
+				<p id="mp_index">
 					Sur ce site, vous pourrez trouvez différentes informations relatives à moi et à mon parcours professionnel. Je vous souhaite bonne visite en compagnie du guide !
 					<br>
 					<br>
 					Vous pouvez naviguer à travers mes différentes pages, grâces à la barre de navigation plus haut, utilisez là, elle est là pour ça !
 				</p>
-			</article>
+
+			</div>
+
+				
 
 		</div>
 
-	</div>
+		<?php
+			include("pied_de_page.php");
+		?>
 		
 	</body>
 
-
-	<br>
-	<br>
-	<br>
-	<br>
-
-	<footer class="container">
 		
-		<?php
-			include("pied_de_page.php");
-
-		?>
-	</footer>
 
 </html>
